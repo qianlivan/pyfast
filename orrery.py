@@ -143,21 +143,21 @@ def animate(i):
     x[0]= float(body.az)*180/np.pi
     y[0]= float(body.alt)*180/np.pi
 #    x[0],y[0]=azalt(sun.ra/convert,sun.dec/convert,ct3)
-    print ct3,sun.name, x[0],y[0]
+    #print ct3,sun.name, x[0],y[0]
     x[1],y[1]=azalt(sat.ra/convert,sat.dec/convert,ct3)
-    print ct3,sat.name, x[1],y[1]
+    #print ct3,sat.name, x[1],y[1]
     x[2],y[2]=azalt(jup.ra/convert,jup.dec/convert,ct3)
-    print ct3,jup.name, x[2],y[2]
+    #print ct3,jup.name, x[2],y[2]
     x[3],y[3]=azalt(mar.ra/convert,mar.dec/convert,ct3)
-    print ct3,mar.name, x[3],y[3]
+    #print ct3,mar.name, x[3],y[3]
     x[4],y[4]=azalt(ven.ra/convert,ven.dec/convert,ct3)
-    print ct3,ven.name, x[4],y[4]
+    #print ct3,ven.name, x[4],y[4]
     x[5],y[5]=azalt(ura.ra/convert,ura.dec/convert,ct3)
-    print ct3,ura.name, x[5],y[5]
+    #print ct3,ura.name, x[5],y[5]
     x[6],y[6]=azalt(nep.ra/convert,nep.dec/convert,ct3)
-    print ct3,nep.name, x[6],y[6]
+    #print ct3,nep.name, x[6],y[6]
     x[7],y[7]=azalt(mon.ra/convert,mon.dec/convert,ct3)
-    print ct3,mon.name, x[7],y[7]
+    #print ct3,mon.name, x[7],y[7]
     #print ct3,mon.name, mon.ra/convert, mon.dec/convert
     
     line.set_data(x, y)  
